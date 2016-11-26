@@ -1,0 +1,71 @@
+input[type="checkbox"][id^="cb"] {
+  display: none;
+}
+
+label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label .image-wrapper {
+  box-shadow: 0 0 5px #333;
+}
+
+:checked + label img {
+  transform: scale(0.9);
+}
+
+img {
+  max-height: 100%;
+}
+
+.image-wrapper {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.element-invisible {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.drag-drop-vertical-ruler {
+  background-image:url('images/ruler_vertical_steve.gif');
+  background-repeat:no-repeat;
+  background-position: top left;
+}
+
+.drag-drop-horizontal-ruler {
+  background-image:url('images/ruler_horizontal_steve.gif');
+  background-repeat:no-repeat;
+  background-position: 15% 0;
+}
+
+

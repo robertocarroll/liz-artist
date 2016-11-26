@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Page title</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="tachyons.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <header class="dt-ns dt--fixed-ns">
+      <div class="dtc-ns tc pv4 bg-light-pink" id="tab1">
+        <h2>1. Pick which pieces you like</h2>
+      </div>
+      <div class="dtc-ns tc pv4 bg-black-20" id="tab2">
+        <h2>2. Arrange them</h2>
+      </div>
+      <div class="dtc-ns tc pv4 bg-black-10" id="tab3">
+       <h2>3. Buy</h2>
+      </div>
+   </header>
+    <section class="cf" id="artworks-wrapper">
+      <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb1" />
+            <label for="cb1">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb1">
+                  <img class="draggable" src="images/SKU_2014-12-01_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+      <div class="fl w-100 w-50-m w-25-l tc ba b--white-025">
+      <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb2" />
+            <label for="cb2">
+              <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb2">
+                <img class="draggable" src="images/SKU_2014-12-03_steve.gif" />
+              </div>
+            </label>
+           </div>
+      </div>
+
+      <div class="fl w-100 w-50-m w-25-l tc ba b--white-025">
+      <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb3" />
+            <label for="cb3">
+              <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb3">
+                <img class="draggable" src="images/SKU_2014-12-04_steve.gif" />
+              </div>
+            </label>
+        </div>
+      </div>
+
+      <div class="fl w-100 w-50-m w-25-l tc ba b--white-025">
+      <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb4" />
+            <label for="cb4">
+              <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb4">
+                <img class="draggable" src="images/SKU_2014-12-08_steve.gif" />
+              </div>
+            </label>
+        </div>
+      </div>
+
+      <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb5" />
+            <label for="cb5">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb5">
+                  <img class="draggable" src="images/SKU_2015-03-04_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb6" />
+            <label for="cb6">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb6">
+                  <img class="draggable" src="images/SKU_2015-07-01_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb7" />
+            <label for="cb7">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb7">
+                  <img class="draggable" src="images/SKU_2015-08-01_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb8" />
+            <label for="cb8">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb8">
+                  <img class="draggable" src="images/SKU_2015-08-02_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb9" />
+            <label for="cb9">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb9">
+                  <img class="draggable" src="images/SKU_2015-09-01_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb10" />
+            <label for="cb10">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb10">
+                  <img class="draggable" src="images/SKU_2015-09-03_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb11" />
+            <label for="cb11">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb11">
+                  <img class="draggable" src="images/SKU_2015-09-04_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb12" />
+            <label for="cb12">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb12">
+                  <img class="draggable" src="images/SKU_2015-09-05_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb13" />
+            <label for="cb13">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb13">
+                  <img class="draggable" src="images/SKU_2015-09-06_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb14" />
+            <label for="cb14">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb14">
+                  <img class="draggable" src="images/SKU_2015-09-07_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb15" />
+            <label for="cb15">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb15">
+                  <img class="draggable" src="images/SKU_2015-09-08_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb16" />
+            <label for="cb16">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb16">
+                  <img class="draggable" src="images/SKU_2015-09-09_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb17" />
+            <label for="cb17">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb17">
+                  <img class="draggable" src="images/SKU2016-07-01_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb18" />
+            <label for="cb18">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb18">
+                  <img class="draggable" src="images/SKU2016-07-02_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb19" />
+            <label for="cb19">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb19">
+                  <img class="draggable" src="images/SKU2016-07-03.steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb20" />
+            <label for="cb20">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb20">
+                  <img class="draggable" src="images/SKU2016-07-04_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb21" />
+            <label for="cb21">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb21">
+                  <img class="draggable" src="images/SKU2016-07-05.steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb22" />
+            <label for="cb22">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb22">
+                  <img class="draggable" src="images/SKU2016-07-06_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb23" />
+            <label for="cb23">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb23">
+                  <img class="draggable" src="images/SKU2016-07-07_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb24" />
+            <label for="cb24">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb24">
+                  <img class="draggable" src="images/SKU2016-07-08_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb25" />
+            <label for="cb25">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb25">
+                  <img class="draggable" src="images/SKU2016-07-09_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb26" />
+            <label for="cb26">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb26">
+                  <img class="draggable" src="images/SKU2016-07-10_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb27" />
+            <label for="cb27">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb27">
+                  <img class="draggable" src="images/SKU2016-07-11_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb28" />
+            <label for="cb28">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb28">
+                  <img class="draggable" src="images/SKU2016-07-12_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb29" />
+            <label for="cb29">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb29">
+                  <img class="draggable" src="images/SKU2016-07-13_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb30" />
+            <label for="cb30">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb30">
+                  <img class="draggable" src="images/SKU2016-07-14_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb31" />
+            <label for="cb31">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb31">
+                  <img class="draggable" src="images/SKU2016-07-15_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb32" />
+            <label for="cb32">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb32">
+                  <img class="draggable" src="images/SKU2016-07-16_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb33" />
+            <label for="cb33">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb33">
+                  <img class="draggable" src="images/SKU2016-07-17_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb34" />
+            <label for="cb34">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb34">
+                  <img class="draggable" src="images/SKU2016-07-18_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb35" />
+            <label for="cb35">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb35">
+                  <img class="draggable" src="images/SKU2016-07-19_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb36" />
+            <label for="cb36">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb36">
+                  <img class="draggable" src="images/SKU2016-07-20_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb37" />
+            <label for="cb37">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb37">
+                  <img class="draggable" src="images/SKU2016-07-21_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb38" />
+            <label for="cb38">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb38">
+                  <img class="draggable" src="images/SKU2016-07-22_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb39" />
+            <label for="cb39">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb39">
+                  <img class="draggable" src="images/SKU2016-07-23_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb40" />
+            <label for="cb40">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb40">
+                  <img class="draggable" src="images/SKU2016-07-24_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+       <div class="fl w-100 w-50-m w-25-l ba b--white-025">
+        <div class="aspect-ratio aspect-ratio--1x1 bg-black-05">
+          <input type="checkbox" class="art-image" id="cb41" />
+            <label for="cb41">
+                <div class="image-wrapper flex justify-center items-center absolute top-0 bottom-0 left-0 right-0" id="image-cb41">
+                  <img class="draggable" src="images/SKU2016-07-25_steve.gif" />
+                </div>
+            </label>
+        </div>
+       </div>
+
+    </section>
+    <section class="mw5 mw7-ns center pa3 ph5-ns tc-ns" id="select-images-wrapper">
+      <a id="select-images" class="f3 grow no-underline br-pill ba bw2 ph3 pv2 mb2 dib mid-gray" href="#0">I like these ones</a>
+     </section>
+
+
+
+<section class ="drag-drop element-invisible" id="drag-drop">
+  <div class="drag-drop-horizontal-ruler">
+  <div class="drag-drop-vertical-ruler">
+    <div class="drag-drop-images pa6-l" id="drag-drop-images">
+
+    </div>
+  </div>
+  </div>
+
+  <section class="mw5 mw7-ns center pa3 ph5-ns tc-ns" id="buy-images-wrapper">
+      <a id="buy-images" class="f3 grow no-underline br-pill ba bw2 ph3 pv2 mb2 dib mid-gray" href="#0">Buy now</a>
+     </section>
+</section>
+
+
+   <script src="interact.min.js"></script>
+   <script src="script.js"></script>
+
+  </body>
+</html>
+
