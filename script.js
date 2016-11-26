@@ -39,7 +39,8 @@ function startSecondStep(selectedArray) {
   buttonSelectImageWrapper.className += " " + "element-invisible";
 
   //add selected images html to the drag drop div
-  document.getElementById('drag-drop-images').innerHTML = selectedArray;
+  var arrayToString = selectedArray.join("");
+  document.getElementById('drag-drop-images').innerHTML = arrayToString;
   //remove the hide class from drag drop section
   document.getElementById("drag-drop").className = "drag-drop" + " " + "pt3";
 
